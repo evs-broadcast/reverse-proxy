@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <Description>Toolkit for building a Kubernetes Ingress Controller in .NET using the infrastructure from ASP.NET and .NET</Description>
-    <TargetFrameworks>$(ReleaseTFMs)</TargetFrameworks>
+    <TargetFramework>net8.0</TargetFramework>
     <OutputType>Library</OutputType>
     <NoWarn>$(NoWarn);CS8002</NoWarn>
     <IsPackable>true</IsPackable>
